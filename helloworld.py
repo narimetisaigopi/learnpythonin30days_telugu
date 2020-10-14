@@ -1,1 +1,1 @@
-print("Hello World by sai gopi tech teliugu")
+print("Hello World")
