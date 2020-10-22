@@ -1,52 +1,21 @@
-print("Hello Sai Gopi")
+myName = "Sai GOpi"
+name= 'Sai GOpi'
+age= "255"
+#print(myName)
 
-#single line 
-name = "Sai Gopi 798"
-name2 = 'Sai Gopi 798'
-print(name2)
+title = '''
+  HP 15s Core i3 10th Gen - (4 GB/1 TB HDD/Windows 10 Home) 
+15s-du2069TU Thin and Light Laptop
+(15.6 inch, Jet Black, 1.77 kg,
+å With MS Office)   '''
 
-#multi line strings
-about_me = ''' i am sai gopi,
-i am teaching python to telugu people
-i am from khammam
-'''
+sas = title.upper()
+sas = title.lower()
+sas = len(title)
+sas = title.strip()
 
-print(about_me)
+#print(title.replace('15.6',"100"))
 
-# arry
-x = "Hello World" #=>> ['H','e','l','l','o']
-x = "Hello World" #=>> [0,  1,  2,   3 , 4 ] indexing
-print(x[1])
-
-#slicing
-print(x[0:5])
-
-#len
-print(len(about_me))
-
-x = "   Hello World  "
-print(x)
-print(x.strip())
-
-print(x.lower())
-print(x.upper())
-
-x = "hello,iam,sai"
-print(x.replace('sai','Gopi'))
-
-print(x.split(","))
-
-x = "hello "
-y = "world"
-
-# concatenation
-print(x+y)
-
-age = 24
-temp = "{}: my age is {}"
-print(temp.format("Sai",age))
-
-x = "my world by mr. \"gopi\""
-
-print(x)
+myName = "Sai GOpi"
+print(myName[4])
 
