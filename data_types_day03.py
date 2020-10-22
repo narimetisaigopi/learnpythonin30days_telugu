@@ -12,6 +12,3 @@ x = True | False #bool
 x = b'hello' #bytes
 x = bytearray(5) #bytearray
 x = memoryview(bytes(5)) #memory
-
-for x in sasas:
-    print(x)
