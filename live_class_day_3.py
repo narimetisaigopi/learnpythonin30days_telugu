@@ -27,6 +27,18 @@ elif age < 18 or a > 10:
 else:
     print("he is started")
 
+age = 240
+
+if age >  0 and age <= 10:
+    print("he is primary"); 
+elif age >  10 and age <= 20:
+    print("he is college"); 
+elif age >  20 and age <= 30:
+    print("he is UG")
+else:
+    print("not there")
+
+
 if age == 18: print("*********") # shortend operators
 
 if age > 18:
