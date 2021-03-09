@@ -32,7 +32,7 @@ else:
 
 for vote in votersList:
     for vote2 in votersList2:
-        print("Vote : "+vote+" Vote2 : "+vote2)
+        print("Vote : "+vote+"\nVote2 : "+vote2)
 
 
 # for x in range(19,90,5):
