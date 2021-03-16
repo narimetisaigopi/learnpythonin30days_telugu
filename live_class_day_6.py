@@ -12,30 +12,52 @@
 
 # def myClass():
 class MyClass:
+    # Global Scope
+    # Local Scope
+
+    name = "Audi"
     
     def __init__(self,height,work):
-        self.height = height
+        
+        self.height = height # global scope
         self.work = work
-        print("MyClass obj has created")
+        #print(str(self.height)+" do "+self.work)
+        #print("MyClass obj has created")
 
     
-    def iDoWork(self,name):
-        print(name+" do "+self.work)
+    def iDoWork(self,sas):
+        # View
+        # view
+        name = "Ferrai"
+        print(str(self.height)+" do "+self.work)
+        print("i have nothing")
+
+    def printBrandName(self):
+        self.name = "Ferrai"
+        print("Brand name is "+self.name)
+
+    def printBrandName2(self):
+        print("Brand name 2 is "+self.name)
+
+
+
+    def getNumberOfWheels(self,wheels = 4):
+        return "This "+self.name+" has "+str(wheels)+" wheels"
 
 class IWillDoNothing:
     pass
 
 
 
-myClassObj = MyClass(23,"Teaching...")
+myClassObj1 = MyClass(23,"Teaching...")
+myClassObj1.printBrandName2()
+myClassObj1.printBrandName()
 
-myClassObj.height = 29
-print(myClassObj.height)
-print(myClassObj.iDoWork("Sanju"))
 
-myClassObjSai = MyClass(25,"Software")
-print(myClassObjSai.height)
-print(myClassObjSai.iDoWork("Sai"))
+
+# myClassObj2 = MyClass(25,"Software")
+# print(myClassObj2.height)
+# print(myClassObj2.iDoWork("Sai"))
 
 
 
